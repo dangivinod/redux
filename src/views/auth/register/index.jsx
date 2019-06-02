@@ -6,6 +6,7 @@ import ContactForm from '../../form'
 class Createform extends React.Component {
 
 	handleSubmit(values) {
+		console.log(">>>>>>>>>>>>>>>.... ", values)
 		values.preventDefault()
 	}
 	render(){
