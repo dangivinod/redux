@@ -7,8 +7,6 @@ class Createform extends React.Component {
 
 	handleSubmit(values) {
 		values.preventDefault()
-		
-		debugger
 	}
 	render(){
 		return(
@@ -16,11 +14,8 @@ class Createform extends React.Component {
 		)
 	}
 }
-// export default Createform
-
 
 const mapStateToProps = state => (() =>{
-console.log(">>>>>>>>>>>>>>>>>>>> ",state.form)
   return{
   	form: state.form
   }
