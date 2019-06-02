@@ -17,6 +17,7 @@ class Createform extends React.Component {
 }
 
 const mapStateToProps = state => (() =>{
+	console.log("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$", state)
   return{
   	form: state.form
   }
